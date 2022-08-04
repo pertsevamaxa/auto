@@ -1,0 +1,50 @@
+body{
+    background-color: #CFF5EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 5%;
+    border: 1px solid #7DA8A2;
+    background-color: #F0FFFD;
+    font-family: "Roboto Thin", sans-serif;
+    color: #7DA8A2;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.inpt {
+    height: 30px;
+}
+
+.inpt, .btn {
+    border-radius: 5px;
+    border: 1px solid #7DA8A2;
+}
+
+
+.btn {
+    height: 35px;
+    background: #7DA8A2;
+    color: white;
+}
+
+.button {
+    margin-bottom: auto;
+}
